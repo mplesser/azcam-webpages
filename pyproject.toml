@@ -1,11 +1,5 @@
 [project]
-dependencies = [
-    "azcam",
-    "jinja2",
-    "dash",
-    "dash-bootstrap-components",
-    "dash_daq",
-]
+dependencies = ["azcam", "dash", "dash-bootstrap-components", "dash_daq"]
 name = "azcam-webpages"
 version = "26.0.0"
 description = "Azcam extension to add certain web pages"
