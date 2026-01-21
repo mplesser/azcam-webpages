@@ -8,7 +8,7 @@ import dash_daq as daq
 import pandas as pd
 
 import azcam
-import azcam.web.queue.queue_ops as qops
+import azcam_webpages.queue.queue_ops as qops
 
 
 def create_button_group():

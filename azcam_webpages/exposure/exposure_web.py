@@ -10,12 +10,12 @@ import dash_daq as daq
 from fastapi.middleware.wsgi import WSGIMiddleware
 
 import azcam
-from azcam.web.exposure.exposure_card import exposure_card
-from azcam.web.exposure.status_card import status_card
-from azcam.web.exposure.filename_card import filename_card
-from azcam.web.exposure.detector_card import detector_card
-from azcam.web.exposure.options_card import options_card
-from azcam.web.exposure.tabs import tabs_buttons, tabs
+from azcam_webpages.exposure.exposure_card import exposure_card
+from azcam_webpages.exposure.status_card import status_card
+from azcam_webpages.exposure.filename_card import filename_card
+from azcam_webpages.exposure.detector_card import detector_card
+from azcam_webpages.exposure.options_card import options_card
+from azcam_webpages.exposure.tabs import tabs_buttons, tabs
 
 
 class ExposureWeb(object):

@@ -10,7 +10,7 @@ import dash_daq as daq
 from fastapi.middleware.wsgi import WSGIMiddleware
 
 import azcam
-from azcam.web.status.status_card import statusweb_card
+from azcam_webpages.status.status_card import statusweb_card
 
 
 class StatusWeb(object):

@@ -11,7 +11,7 @@ import dash_daq as daq
 from fastapi.middleware.wsgi import WSGIMiddleware
 
 import azcam
-from azcam.web.queue.queue_card import queue_card
+from azcam_webpages.queue.queue_card import queue_card
 
 
 class QueueWeb(object):
