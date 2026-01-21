@@ -1,0 +1,26 @@
+[project]
+dependencies = [
+    "azcam",
+    "jinja2",
+    "dash",
+    "dash-bootstrap-components",
+    "dash_daq",
+]
+name = "azcam-webpages"
+version = "26.0.0"
+description = "Azcam extension to add web pages"
+license = { file = "LICENSE" }
+readme = "README.md"
+requires-python = ">=3.10"
+keywords = ["ccd", "imaging", "astronomy", "sensors"]
+authors = [{ name = "Michael Lesser" }, { email = "mlesser@arizona.edu" }]
+[project.urls]
+Documentation = "https://github.com/mplesser/azcam-webpages#README"
+Repository = "https://github.com/mplesser/azcam-itl/"
+
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.module]
+name = "azcam_webpages"
